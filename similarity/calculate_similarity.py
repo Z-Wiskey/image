@@ -96,5 +96,5 @@ np.save("./similarity_Mobility_vsgre.npy", S_mob)
 print(f"Mobility 相似度矩阵已保存，形状: {S_mob.shape}")
 
 # ---------------------------------------------------------
-# 补充：对 contrastive_sample.py 的微调建议
+# 补充：对 contrastive_sample_sv.py 的微调建议
 # ---------------------------------------------------------
