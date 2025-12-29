@@ -22,7 +22,7 @@ region_idx = np.load(region_idx_path).tolist()
 # 3. 输出的 CSV 文件名
 output_csv_name = "train_pairs_satellite.csv"
 
-# ================= 主逻辑 ======== =========
+# ================= 主逻辑 =================
 
 a = []  # 用于存储 [anchor, positive, negative] 路径
 
