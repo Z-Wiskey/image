@@ -65,7 +65,7 @@ if __name__ == "__main__":
     data_path = "../../satellite_images"
 
     # 区域 ID 列表
-    region_idx_path = "../../satellite/region_idx.npy"
+    region_idx_path = "../../satellite_sample/region_idx.npy"
 
     # 输出保存路径
     output_npy_path = "../../prediction-tasks/emb/si_embedding.npy"  # 建议保存到这里供后续使用
