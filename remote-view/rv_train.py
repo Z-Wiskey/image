@@ -257,7 +257,7 @@ if __name__ == "__main__":
     train_csv = csv.reader(open(train_csv_path, encoding='UTF-8-sig'))
     train_path_list = list(train_csv)  # [6666/name.jpg, 6667/name.jpg, 6668/name.jpg]
 
-    val_path_path = "train_pairs_satellite.csv"
+    val_path_path = "val_pairs_satellite.csv"
     val_csv = csv.reader(open(val_path_path, encoding='UTF-8-sig'))
     val_path_list = list(val_csv)
 
