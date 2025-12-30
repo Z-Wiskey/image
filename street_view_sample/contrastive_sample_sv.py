@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 # 1. 图片根目录 (您的街景文件夹)
 # 请确保这里填的是包含 region_0, region_1... 这些文件夹的父目录
-image_root_dir = "manhattan_streetview_images"
+image_root_dir = "../street_view_images"
 
 # 2. 相似度矩阵 (街景必须用 Mobility 相似度)
 similarity_path = "../similarity/similarity_Mobility_vsgre.npy"
