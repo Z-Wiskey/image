@@ -59,7 +59,7 @@ def get_resnet18(output_dim, ckpt_path):
 if __name__ == "__main__":
     # 配置路径 (请根据实际情况修改)
     # 训练生成的权重文件，通常在 training_logs 文件夹里，找 epoch 数最大的那个 .tar
-    ckpt_path = "../NY_RV_128_triplet_49_last.tar"  # <--- 请修改为你实际生成的 .tar 文件名
+    ckpt_path = "../NY_RV_128_triplet_188_last.tar"  # <--- 请修改为你实际生成的 .tar 文件名
 
     # 图像文件夹
     data_path = "../../satellite_images"
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     ])
 
     # 初始化模型
-    model = get_resnet18(output_dim=128, ckpt_path=ckpt_path)
+    model = get_resnet18(output_dim=144, ckpt_path=ckpt_path)
     model = model.to(device)
     model.eval()  # 开启评估模式
 

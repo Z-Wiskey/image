@@ -213,7 +213,7 @@ def train_embedding(model, model_name, dataloaders, criterion, optimizer, num_ep
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
 
-    # load best model weights
+    # load best model weights 日志回滚到模型的最佳参数
     if return_best:
         model.load_state_dict(best_model_wts)
         optimizer.load_state_dict(best_optimizer_wts)
