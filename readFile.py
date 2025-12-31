@@ -16,6 +16,10 @@ si_embedding = np.load('./prediction-tasks/emb/si_embedding.npy', allow_pickle=T
 
 print(si_embedding)
 
+sv_embedding = np.load('./prediction-tasks/emb/sv_embedding.npy', allow_pickle=True)
+
+print(sv_embedding)
+
 
 
 

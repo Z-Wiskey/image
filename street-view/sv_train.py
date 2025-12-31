@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 from torchvision.transforms import transforms
 from tqdm import tqdm
 
-from models.inceptionv3 import PlaceImageSkipGram
+from model.inceptionv3 import PlaceImageSkipGram
 from utils.image_dataset import PlaceImagePairDataset
 
 
